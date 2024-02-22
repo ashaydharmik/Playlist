@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  font-family: "open sans";
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.audio-container{
+  width: 100%;
+  height: 100vh;
+  background: rgb(34,66,195);
+background: linear-gradient(0deg, rgba(34,66,195,1) 10%, rgba(130,33,255,1) 82%);
+}
+
+h1{
+  font-size: 2rem;
+  text-align: center;
+  color: #e7dd12;
+}
+
+.input-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+input{
+  font-size: 1.5rem;
+    border-radius: 10px;  
+    
+}
+.audio-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+}
+
+.audio-player .audio {
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 40%;
+  margin: auto;
+  color: rgb(249, 120, 120);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.audio p{
+  text-align: center;
+  margin-top: 1rem;
+}
+.audio .player{
+  display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  height: 40vh;
+}
+.audio-table{
+  width: 70%;
+    overflow-y: auto;
+    height: 90%;
+}
+.audio-table table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+.audio-table th, .audio-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: white;
+}
+
+.audio-table th {
+  background-color: #e7dd12;
+}
+.audio-table th{
+border: 1px solid #0a0909;
+color: black;
+}
+
+.audio-table table button{
+  
+  width: 100%;
+ cursor: pointer;
+}
